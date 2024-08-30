@@ -154,3 +154,45 @@
     "aside-desktop content-desktop";
     background: var(--orange) ;
 }
+@media (max-width: 680px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "aside-desktop"
+        "content-desktop";
+    }
+    .aside-desktop {
+        display: flex;
+        justify-content:space-around;
+        padding: 0 0 1rem 0.5rem;
+        position: static;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+   
+    .header-desktop {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .estudios{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .experiencia-laboral{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .gato-galeria{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .footer-desktop {
+        padding: 1rem 0.5rem;
+    }
+
+
+}
